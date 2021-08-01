@@ -36,4 +36,4 @@ jobs:
           known_hosts: ${{ secrets.SSH_HOST }} # default is 
 
       - name: Deploy with rsync
-        run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/ryoncook/
+        run: rsync -avz dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/ryoncook/
