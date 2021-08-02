@@ -4,11 +4,6 @@ jobs:
   Pipeline:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Install modules
-      run: yarn
-    - name: Run ESLint
-      run: eslint . --ext .js,.jsx,.ts,.tsx
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.3.0
       with:
