@@ -1,11 +1,17 @@
 name: CI
-on: push
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
     - name: Install modules
-      run: npx
+      run: yarn
     - name: Run ESLint
-      run: eslint ./src --ext .js,.jsx,.ts,.tsx
+      run: npx eslint ./src --ext .ts,.tsx
