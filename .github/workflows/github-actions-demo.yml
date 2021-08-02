@@ -8,7 +8,7 @@ jobs:
         uses: actions/setup-node@v2.3.0
         with:
           # Set always-auth in npmrc
-          always-auth: false# optional, default is false
+          always-auth: false # optional, default is false
           # Version Spec of the version to use.  Examples: 12.x, 10.15.1, >=10.15.0
           # node-version: # optional
           # Target architecture for Node to use. Examples: x86, x64. Will use system architecture by default.
@@ -34,6 +34,11 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }} 
           # public keys of SSH servers
           known_hosts: ${{ secrets.SSH_HOST }} # default is 
-
-      - name: Deploy with rsync
-        run: rsync -avz ./dist/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/ryoncook/
+          
+      - name: Run ESLint
+        # You may pin to the exact commit or the version.
+        # uses: stefanoeb/eslint-action@0b532bcd98dbed80a59071fa8986fcf1b1715be4
+        uses: stefanoeb/eslint-action@1.0.2
+        with:
+          # Blob of files to lint
+          files: . # optional, default is .
