@@ -1,0 +1,49 @@
+.total {
+    padding-top: 10px;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+  }
+  
+  .menu_top{
+    display: flex;
+    background-color: rgba(black, 0.8);
+    width: 100%;
+    height: 81px;
+    align-items: center;
+  
+    flex-direction:row;
+    flex-wrap: nowrap;
+    gap: 20px; 
+  }
+  
+  .items {
+    flex-grow: 1;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FEFEFE;
+  }
+  
+  .title {
+    flex-grow: 8;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+
+    text-align: center;
+    
+    color: #FEFEFE;
+    width: 255px;
+    height: 51px;
+    margin-left: 37px;
+    text-decoration: none;
+  }
+  
+  
+  
+  
