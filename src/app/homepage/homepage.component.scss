@@ -1,20 +1,44 @@
 .homepage{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     align-content: center;
 }
 img{
     position: relative;
-    margin-top: 20%;
-    left: 55%;
+    margin-top: 10%;
+    left: 60%;
     border-radius: 50%;
     border: 5px solid #767D92;
     max-width: 100%;
     width: 100%;
     height: auto !important;
+}
+h1{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #767D92;
+    max-width: 45rem;
+}
+h2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #767D92;
+    max-width: 45rem;
+}
+p{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #767D92;
+    max-width: 45rem;
+}
+li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #767D92;
+    max-width: 45rem;
 }
 @media (max-width:767px) {
     img {
@@ -42,13 +66,4 @@ img{
         max-width: 180px;
         max-height: 180px;
     }
-}
-h1{
-    color: #767D92;
-}
-h2{
-    color: #767D92;
-}
-p{
-    color: #767D92;
 }
