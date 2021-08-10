@@ -1,9 +1,15 @@
 .homepage{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
 }
 img{
+    position: relative;
+    margin-top: 20%;
+    left: 55%;
     border-radius: 50%;
     border: 5px solid #767D92;
     max-width: 100%;
@@ -36,4 +42,13 @@ img{
         max-width: 180px;
         max-height: 180px;
     }
+}
+h1{
+    color: #767D92;
+}
+h2{
+    color: #767D92;
+}
+p{
+    color: #767D92;
 }
