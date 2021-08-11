@@ -9,6 +9,7 @@ import { MatSliderModule } from '@angular/material/slider';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomepageComponent } from './homepage/homepage.component';
 import { BlogComponent } from './blog/blog.component';
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { BlogComponent } from './blog/blog.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSliderModule,
-    MatToolbarModule
+    MatToolbarModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
