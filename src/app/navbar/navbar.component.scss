@@ -1,12 +1,12 @@
 .navbar-brand{
   position: sticky;
-  left: 35%;
+  left: 28.5%;
   transform: translatex(-50%);
   color: #767D92;
 }
 .navbar-nav.mr-auto {
   position: absolute;
-  left: 60%;
+  left: 65%;
   transform: translatex(-50%);
 }
 .navbar{
@@ -22,4 +22,5 @@ div:after{
   left:0;
   background:#2F4562;
   border-radius:5px;
+  z-index: 1;
   }
