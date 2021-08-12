@@ -10,13 +10,15 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { HomepageComponent } from './homepage/homepage.component';
 import { BlogComponent } from './blog/blog.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { Blog1Component } from './blog/blog1/blog1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomepageComponent,
-    BlogComponent
+    BlogComponent,
+    Blog1Component
   ],
   imports: [
     BrowserModule,
