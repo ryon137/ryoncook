@@ -1,6 +1,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top justify-content-center scrolling-navbar" style="background-color: #081B33">
-    <a class="navbar-brand" routerLink="/">Ryon Cook</a>
+    <a class="navbar-brand" routerLink="/" style="color: #FFFFF0">Ryon Cook</a>
     <button (click)="isCollapsed = !isCollapsed" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -9,13 +9,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isCollapsed">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" routerLink="/">Home</a>
+                <a class="nav-link" routerLink="/" style="color: #FFFFF0">Home</a>
             </li>
             <li class="nav-item disabled">
-                <a class="nav-link disabled" href="#">About</a>
+                <a class="nav-link disabled">About</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" routerLink="/blog">Blog</a>
+                <a class="nav-link" routerLink="/blog" style="color: #FFFFF0">Blog</a>
             </li>
         </ul>
     </div>

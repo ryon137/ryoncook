@@ -11,7 +11,7 @@ img{
     margin-top: 5%;
     left: 67%;
     border-radius: 50%;
-    border: 5px solid #767D92;
+    border: 5px solid #16d3d3;
     max-width: 100%;
     width: 100%;
     height: auto !important;
@@ -19,25 +19,34 @@ img{
 h1{
     margin-left: 1rem;
     margin-right: 1rem;
-    color: #767D92;
+    color: #ffffff;
     max-width: 45rem;
+    font-family: Inter,Arial,Helvetica,sans-serif;
 }
 h2{
     margin-left: 1rem;
     margin-right: 1rem;
-    color: #767D92;
+    color: #16d3d3;
     max-width: 45rem;
+    font-family: Inter,Arial,Helvetica,sans-serif;
+}
+h3{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: orange;
+    max-width: 45rem;
+    font-family: Inter,Arial,Helvetica,sans-serif;
 }
 p{
     margin-left: 1rem;
     margin-right: 1rem;
-    color: #767D92;
+    color: #DFDFE5;
     max-width: 45rem;
 }
 li{
     margin-left: 1rem;
     margin-right: 1rem;
-    color: #767D92;
+    color: #DFDFE5;
     max-width: 45rem;
 }
 @media (max-width:767px) {
