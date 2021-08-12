@@ -11,6 +11,7 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { BlogComponent } from './blog/blog.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { Blog1Component } from './blog/blog1/blog1.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { Blog1Component } from './blog/blog1/blog1.component';
     NavbarComponent,
     HomepageComponent,
     BlogComponent,
-    Blog1Component
+    Blog1Component,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
