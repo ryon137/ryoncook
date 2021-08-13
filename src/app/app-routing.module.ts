@@ -6,7 +6,7 @@ import { Blog1Component } from './blog/blog1/blog1.component';
 import { HomepageComponent } from './homepage/homepage.component';
 
 const routes: Routes = [{path:'', component: HomepageComponent},{path:'blog', component: BlogComponent},
-{path:'blog/blog1', component: Blog1Component},
+{path:'blog/internship-report', component: Blog1Component},
 {path:'about', component: AboutComponent}];
 
 @NgModule({
