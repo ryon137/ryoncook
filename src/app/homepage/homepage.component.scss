@@ -16,6 +16,17 @@ img{
     width: 100%;
     height: auto !important;
 }
+a{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: #DFDFE5;
+    max-width: 45rem;
+    font-size: 18px;
+    text-decoration: none;
+}
+a:hover{
+    color: pink;
+}
 h1{
     margin-left: 1rem;
     margin-right: 1rem;
